@@ -850,6 +850,8 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .profile__title {
@@ -939,6 +941,11 @@ img {
   bottom: 0;
 }
 
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .clients__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -995,6 +1002,11 @@ img {
 .clients__link:hover .clients__icon,
 .clients__link:focus .clients__icon {
   fill: var(--accent-color);
+}
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio__list {
