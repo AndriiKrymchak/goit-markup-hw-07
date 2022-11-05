@@ -17,10 +17,12 @@
   transition: fill 250ms var(--transition-time), background-color 250ms var(--transition-time);
 }
 
-.network__link:hover,
-.network__link:focus {
-  fill: var(--primary-white-color);
-  background-color: var(--accent-color);
+.network__link {
+  &:focus,
+  &:hover {
+    fill: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
 }
 
 .network__icon--color {

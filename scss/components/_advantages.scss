@@ -20,20 +20,28 @@
   border-radius: 4px;
 }
 
-.advantages__item--antenna::before {
-  background-image: url(../images/antenna.svg);
+.advantages__item--antenna {
+  &::before {
+    background-image: url(../images/antenna.svg);
+  }
 }
 
-.advantages__item--clock::before {
-  background-image: url(../images/clock.svg);
+.advantages__item--clock {
+  &::before {
+    background-image: url(../images/clock.svg);
+  }
 }
 
-.advantages__item--diagram::before {
-  background-image: url(../images/diagram.svg);
+.advantages__item--diagram {
+  &::before {
+    background-image: url(../images/diagram.svg);
+  }
 }
 
-.advantages__item--astronaut::before {
-  background-image: url(../images/astronaut.svg);
+.advantages__item--astronaut {
+  &::before {
+    background-image: url(../images/astronaut.svg);
+  }
 }
 
 .advantages__item {

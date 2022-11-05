@@ -19,6 +19,8 @@
   transition: fill 250ms var(--transition-time);
 }
 
-.close__button:hover .close__icon {
-  fill: var(--accent-color);
+.close__button {
+  &:hover .close__icon {
+    fill: var(--accent-color);
+  }
 }

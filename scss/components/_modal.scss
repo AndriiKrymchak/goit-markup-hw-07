@@ -45,8 +45,10 @@
   transition: border-color 250ms var(--transition-time);
 }
 
-.modal__input:focus {
-  border-color: var(--accent-color);
+.modal__input {
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .modal__icon {
@@ -73,8 +75,10 @@
   resize: none;
 }
 
-.modal__textarea:focus {
-  border-color: var(--accent-color);
+.modal__textarea {
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .textarea {

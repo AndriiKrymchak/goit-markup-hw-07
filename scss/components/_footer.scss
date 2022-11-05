@@ -56,9 +56,11 @@
   transition: color 250ms var(--transition-time);
 }
 
-.address__link:hover,
-.address__link:focus {
-  color: var(--accent-color);
+.address__link {
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
 }
 
 .footer__social {
@@ -104,8 +106,10 @@
   outline: none;
 }
 
-.subscription__input:focus {
-  border-color: var(--accent-color);
+.subscription__input {
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .subscription__button {
@@ -133,9 +137,11 @@
     border-color 250ms var(--transition-time);
 }
 
-.subscription__button:hover {
-  border-color: #188ce8;
-  background-color: #188ce8;
+.subscription__button {
+  &:hover {
+    border-color: #188ce8;
+    background-color: #188ce8;
+  }
 }
 
 .subscription__icon {

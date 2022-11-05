@@ -16,10 +16,12 @@
   transition: background-color 250ms var(--transition-time), box-shadow 250ms var(--transition-time);
 }
 
-.primary__button:hover,
-.primary__button:focus {
-  background-color: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+.primary__button {
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .primary__button--size {

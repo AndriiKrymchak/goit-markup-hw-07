@@ -164,8 +164,7 @@ img {
   transition: background-color 250ms var(--transition-time), box-shadow 250ms var(--transition-time), -webkit-box-shadow 250ms var(--transition-time);
 }
 
-.primary__button:hover,
-.primary__button:focus {
+.primary__button:hover, .primary__button:focus {
   background-color: #188ce8;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -453,8 +452,7 @@ img {
   transition: fill 250ms var(--transition-time), background-color 250ms var(--transition-time);
 }
 
-.network__link:hover,
-.network__link:focus {
+.network__link:focus, .network__link:hover {
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -539,8 +537,7 @@ img {
   transition: color 250ms var(--transition-time);
 }
 
-.address__link:hover,
-.address__link:focus {
+.address__link:focus, .address__link:hover {
   color: var(--accent-color);
 }
 
@@ -802,8 +799,7 @@ img {
   transition: color 250ms var(--transition-time), fill 250ms var(--transition-time);
 }
 
-.header-contacts__link:hover,
-.header-contacts__link:focus {
+.header-contacts__link:focus, .header-contacts__link:hover {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
@@ -995,13 +991,11 @@ img {
   transition: fill 250ms var(--transition-time), border 250ms var(--transition-time);
 }
 
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:focus, .clients__link:hover {
   border: 1px solid var(--accent-color);
 }
 
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
+.clients__link:hover .clients__icon, .clients__link:focus .clients__icon {
   fill: var(--accent-color);
 }
 
@@ -1046,14 +1040,12 @@ img {
   transition: color 250ms var(--transition-time), background-color 250ms var(--transition-time), border-color 250ms var(--transition-time), box-shadow 250ms var(--transition-time), -webkit-box-shadow 250ms var(--transition-time);
 }
 
-.portfolio__buttons:hover,
-.portfolio__buttons:focus {
+.portfolio__buttons:focus, .portfolio__buttons:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   border-color: var(--accent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-  /* padding: 6px 24px; */
 }
 
 .gallery__list {
@@ -1082,8 +1074,7 @@ img {
   transition: box-shadow 250ms var(--transition-time), -webkit-box-shadow 250ms var(--transition-time);
 }
 
-.gallery__link:hover,
-.gallery__link:focus {
+.gallery__link:focus, .gallery__link:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   outline: none;
@@ -1154,8 +1145,7 @@ img {
   overflow: hidden;
 }
 
-.gallery__link:hover .gallery__text--hidden,
-.gallery__link:focus .gallery__text--hidden {
+.gallery__link:hover .gallery__text--hidden, .gallery__link:focus .gallery__text--hidden {
   -webkit-transform: translateX(0);
           transform: translateX(0);
 }/*# sourceMappingURL=main.css.map */

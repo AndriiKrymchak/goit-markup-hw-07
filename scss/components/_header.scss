@@ -100,8 +100,10 @@
   margin-right: 10px;
 }
 
-.header-contacts__item:not(:last-child) {
-  margin-right: 50px;
+.header-contacts__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .header-contacts__link {
@@ -120,8 +122,10 @@
   transition: color 250ms var(--transition-time), fill 250ms var(--transition-time);
 }
 
-.header-contacts__link:hover,
-.header-contacts__link:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
+.header-contacts__link {
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+  }
 }
